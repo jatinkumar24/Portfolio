@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/56844cea25.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header id="header">
+        <div class="container">
+            <nav>
+                <img src="" alt="logo" class="logo">
+                <ul id="slidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="box1">
+                    <div class="header-text">
+                    <p>Web Developer</p>
+                    <h1>Hi I'm <span>Jatin</span> <br>Kumar from INDIA</h1>
+                    
+                </div>
+                <div class="profile">
+                    <img src="img/profile.png" alt="">
+                </div>
+            </div>
+        </div>
+    </header>
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="img/about.png" alt="my pic">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam qui natus velit officiis totam eligendi quis quo ipsum accusantium eaque dolorum, quisquam sed magnam nesciunt consequuntur, ad, perferendis ratione laborum voluptates perspiciatis. Autem molestias quaerat voluptas eum? Autem, laudantium distinctio nihil sint eligendi velit aperiam obcaecati eos odio. Accusanentium ex, quo illum cumque!minus dicta error tempore cumque molestias, deleniti .</p>
+
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                        <p class="tab-links" onclick="opentab('education')">Education</p>
+                    </div>
+                    <div class="tab-contents active-tab " id="skills">
+                        <ul>
+                            <li><span>Web development</span> <br>Web app development</li>
+                            <li><span>App development</span><br>Building Android apps</li>
+                        </ul>
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>2021-2024</span> <br>Bachelor of Computer Applications</li>
+                            <li><span>2025-2027 </span><br>Master of Computer Applications</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- ----------------services--------------------- -->
+     <div id="services">
+        <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Desing</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam fugiat impedit ipsum, dolor libero consequatur nemo.</p>
+                    <a href="#">learn more.</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-laptop-code"></i>
+                    <h2>App Desing</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam fugiat impedit ipsum, dolor libero consequatur nemo.</p>
+                    <a href="#">learn more.</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>App Desing</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam fugiat impedit ipsum, dolor libero consequatur nemo.</p>
+                    <a href="#">learn more.</a>
+                </div>
+            </div>
+        </div>
+     </div>
+     <!-- -----------------portfolio------------------------ -->
+      <div id="portfolio"> 
+        <div class="container">
+            <h1 class="sub-title">My work</h1>
+            <div class="work-list">
+                <div class="work">
+                    <img src="img/work1.png" alt="">
+                    <div class="layer">
+                        <h3>Work 1</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero vel eaque qui facilis nobis pariatur sapiente.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/work3.jpg" alt="">
+                     <div class="layer">
+                        <h3>Work 2</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero vel eaque qui facilis nobis pariatur sapiente.</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="img/work1.png" alt="">
+                     <div class="layer">
+                        <h3>Work 3</h3>
+                        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Libero vel eaque qui facilis nobis pariatur sapiente..</p>
+                        <a href="#"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a href="#" class="btn">See more</a>
+
+        </div>
+      </div>
+    <!-- -----------------cocntact--------------------------- -->
+     <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p><i class="fa-solid fa-paper-plane"></i>contact@example.com</p>
+                    <p><i class="fa-solid fa-phone"></i>0789612543</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fa-brands fa-square-linkedin"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://github.com/jatinkumar24"><i class="fa-brands fa-github"></i></a>
+                        <a href="#"><i class="fa-brands fa-x-twitter"></i></a>
+                    </div>
+                    <a href="" class="btn btn2">Download CV</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">Copyright &copy; Jatin .Made with <i class="fa-solid fa-heart"></i></div>
+     </div>
+<script src="script.js"></script>
+</body>
+</html>
